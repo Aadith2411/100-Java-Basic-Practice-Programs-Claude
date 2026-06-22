@@ -1,0 +1,6 @@
+public class P006 {
+    public static void main(String[] args) {
+        char initial = 'a';
+        System.out.println("My initial is " + initial);
+    }
+}
