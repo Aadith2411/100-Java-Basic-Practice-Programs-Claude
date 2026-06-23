@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+public class P011 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a word: ");
+        String word = input.nextLine();
+
+        System.out.println("The word has " + word.length() + " characters.");
+
+        input.close();
+    }
+}
