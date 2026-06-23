@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class P018 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a sentence: ");
+        String sentence = input.nextLine();
+
+        String result = sentence.replace(" ", "_");
+
+        System.out.println("Modified sentence: " + result);
+
+        input.close();
+    }
+}
