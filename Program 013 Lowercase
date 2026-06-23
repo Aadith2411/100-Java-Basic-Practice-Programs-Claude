@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class P012 {
+public class P013 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
