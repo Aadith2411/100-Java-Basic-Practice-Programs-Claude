@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class P042 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter speed: ");
+        int speed = input.nextInt();
+
+        if (speed <= 60) {
+            System.out.println("No fine");
+        } else if (speed <= 80) {
+            System.out.println("$50 fine");
+        } else if (speed <= 100) {
+            System.out.println("$100 fine");
+        } else {
+            System.out.println("License suspended");
+        }
+
+        input.close();
+    }
+}
