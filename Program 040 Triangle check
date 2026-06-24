@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class P040 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter side 1: ");
+        int a = input.nextInt();
+
+        System.out.print("Enter side 2: ");
+        int b = input.nextInt();
+
+        System.out.print("Enter side 3: ");
+        int c = input.nextInt();
+
+        if (a + b > c && a + c > b && b + c > a) {
+            System.out.println("Valid Triangle");
+        } else {
+            System.out.println("Not a Triangle");
+        }
+
+        input.close();
+    }
+}
