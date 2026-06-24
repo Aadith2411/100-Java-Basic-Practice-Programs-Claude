@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class P025 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("What Year were you born?");
+        int birthYear = input.nextInt();
+        int currentYear = 2025;
+
+        
+        int age = currentYear - birthYear;
+        
+        System.out.println("Your age should be approximately " + age + " years ");
+
+    }
+}
