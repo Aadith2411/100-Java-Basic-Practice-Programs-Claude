@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class P039 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter age: ");
+        int age = input.nextInt();
+
+        if (age < 5) {
+            System.out.println("Free");
+        } else if (age <= 12) {
+            System.out.println("$5");
+        } else if (age <= 17) {
+            System.out.println("$8");
+        } else {
+            System.out.println("$12");
+        }
+
+        input.close();
+    }
+}
