@@ -1,7 +1,10 @@
+/* This program presents just prints out a boolean 
+   Author: Aadith Pradeep  version: 1.0   Date: 22Jun2026
+*/
+
 public class P005{
     public static void main(String[]args){
-    boolean isHappy = true;
-    System.out.println(isHappy);
-    
-}
+       boolean isHappy = true;
+       System.out.println(isHappy);
+    }
 }
