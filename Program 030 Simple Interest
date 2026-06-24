@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class P030 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the principal amount: ");
+        double principal = input.nextDouble();
+
+        System.out.println("Enter the rate (%): ");
+        double rate = input.nextDouble();
+
+        System.out.println("Enter the number of years: ");
+        double years = input.nextDouble();
+
+        double simpleInterest = (principal * rate * years) / 100;
+
+        System.out.println("The simple interest is " + simpleInterest);
+    }
+}
