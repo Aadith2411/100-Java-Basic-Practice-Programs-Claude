@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class P025 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("What is the amount of inches: ");
+        int inches = input.nextInt();
+        
+        int feet = inches/12;
+        
+        System.out.println("The Inches as feet amounts to " + feet);
+       
+
+    }
+}
