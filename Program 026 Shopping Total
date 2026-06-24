@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+
+public class P025 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("What is the price of the Bananas?");
+        double bananasPrice = input.nextDouble();
+        
+        System.out.println("What is the price of the gum?");
+        double gumPrice = input.nextDouble();
+        
+        System.out.println("What is the price of the milk?");
+        double milkPrice = input.nextDouble();
+        
+        double totalCost = bananasPrice + gumPrice + milkPrice;
+        double averageCost= totalCost/3;
+        
+        System.out.println("Your total cost of groceries is: " + totalCost);
+        System.out.println("The average cost of groceries is: " + averageCost);
+
+    }
+}
