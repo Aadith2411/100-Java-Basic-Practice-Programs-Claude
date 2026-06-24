@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class P022 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter a temperature in Celsius:");
+        double celciusTemp = input.nextDouble();
+        double fahrenheitTemp = (9.0 / 5.0) * celciusTemp + 32;                
+        System.out.println("Temperature in Fahrenheit: " + fahrenheitTemp);
+
+    }
+}
