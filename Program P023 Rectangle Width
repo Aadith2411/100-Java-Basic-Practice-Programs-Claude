@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class P023 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the Length of a rectangle:");
+        int rectangleLength = input.nextInt();
+        System.out.println("Enter the Width of a rectangle:");
+        int rectangleWidth = input.nextInt();
+        int rectangleArea = rectangleLength * rectangleWidth;
+        System.out.println("The area of the rectangle in feet is: " + rectangleArea);
+
+    }
+}
