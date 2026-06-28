@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class P050 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a Compass Letter: ");
+        String letter = input.next();
+
+        switch (letter) {
+            case "N":
+                System.out.println("North");
+                break;
+            case "E":
+                System.out.println("East");
+                break;
+            case "S":
+                System.out.println("South");
+                break;
+            case "W":
+                System.out.println("West");
+                break;
+            default:
+                System.out.println("Invalid Direction");
+        }
+
+        input.close();
+    }
+}
