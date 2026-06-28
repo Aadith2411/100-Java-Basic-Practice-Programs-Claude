@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class P046 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a coin to know its value: ");
+        String coin = input.next();
+
+        switch (coin) {
+            case "Penny":
+                System.out.println("1 Cent");
+                break;
+            case "Nickel":
+                System.out.println("5 Cents");
+                break;
+            case "Dime":
+                System.out.println("10 Cents");
+                break;
+            case "Quarter":
+                System.out.println("25 Cents");
+                break;
+            default:
+                System.out.println("Invalid Coin.");
+        }
+
+        input.close();
+    }
+}
