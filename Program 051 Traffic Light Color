@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class P051 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a Traffic Light Color: ");
+        String color = input.next();
+
+        switch (color) {
+            case "Green":
+                System.out.println("You may go");
+                break;
+            case "Yellow":
+                System.out.println("You may go slowly");
+                break;
+            case "Red":
+                System.out.println("Don't start driving");
+                break;
+            default:
+                System.out.println("Invalid Directions");
+        }
+
+        input.close();
+    }
+}
