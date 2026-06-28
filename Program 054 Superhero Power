@@ -1,0 +1,32 @@
+import java.util.*;
+
+public class P054 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a number (1-5): ");
+        int hero = input.nextInt();
+
+        switch (hero) {
+            case 1:
+                System.out.println("Thunder Man - Controls Lightning");
+                break;
+            case 2:
+                System.out.println("Ice Girl - Freezes Anything");
+                break;
+            case 3:
+                System.out.println("Speed Boy - Super Speed");
+                break;
+            case 4:
+                System.out.println("Shadow Ninja - Turns Invisible");
+                break;
+            case 5:
+                System.out.println("Fire Hero - Shoots Fire");
+                break;
+            default:
+                System.out.println("Invalid number.");
+        }
+
+        input.close();
+    }
+}
