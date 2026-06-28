@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class P055 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("What is the name of the third book in the hunger games?");
+        System.out.println("A. Catching Fire");
+        System.out.println("B. Sunrise on the Reaping");
+        System.out.println("C. Mockingjay");
+        System.out.println("D. Ballads of Songbirds and Snakes")
+        System.out.print("Enter your answer (A, B, C, or D): ");
+        String answer = input.next().toUpperCase();
+
+        switch (answer) {
+            case "C":
+                System.out.println("Correct!");
+                break;
+            case "A":
+            case "B":
+            case "D":
+                System.out.println("Wrong.");
+                break;
+            default:
+                System.out.println("Invalid choice.");
+        }
+
+        input.close();
+    }
+}
