@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class P052 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter an animal (cat, dog, cow, duck): ");
+        String animal = input.next().toLowerCase();
+
+        switch (animal) {
+            case "cat":
+                System.out.println("Meow");
+                break;
+            case "dog":
+                System.out.println("Woof");
+                break;
+            case "cow":
+                System.out.println("Moo");
+                break;
+            case "duck":
+                System.out.println("Quack");
+                break;
+            default:
+                System.out.println("Unknown animal.");
+        }
+
+        input.close();
+    }
+}
